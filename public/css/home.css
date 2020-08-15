@@ -1,0 +1,48 @@
+.header{
+    color: white;
+    height: 25vw;
+}
+
+.headerContainer{
+    display: flex;
+    height: 25vw;
+    align-items: center;
+}
+
+.headerContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 800px) {
+.headerContainer{
+    display: flex;
+    height: 100vw;
+    align-items: center;
+}
+.header{
+    color: white;
+    height: 100vw;
+}
+}
+@media only screen and (max-width: 300px) {
+.headerContainer{
+    display: flex;
+    height: 100vw;
+    align-items: center;
+}
+.header{
+    margin-top: 20vw;
+    color: white;
+    height: 100vw;
+}
+}
+@media only screen and (min-width: 800px) {
+.card{
+    height: 40rem;
+}
+#row2{
+    margin-top: 2em;
+}
+}
